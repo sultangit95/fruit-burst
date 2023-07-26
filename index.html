@@ -38,18 +38,18 @@
         }
       </style>
   </head>
-  <body>
+  <body class="font-lato">
     <!-- ===== header section starts ===== -->
     <header>
       <!-- ===== nav section starts ===== -->
       <div class="custom-container">
-        <div class="navbar bg-brand mt-10 mb-10 px-14 rounded-full py-4">
+        <div class="navbar bg-brand mt-10 mb-10 px-6 rounded-full py-4">
           <div class="navbar-start hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
-              <li class="text-base font-lato text-white"><a href="#" class="hover:text-white">Home</a></li>
-              <li class="text-base font-lato text-white"><a href="#" class="hover:text-white">About Us</a></li>
-              <li class="text-base font-lato text-white"><a href="#" class="hover:text-white">Shop</a></li>
-              <li class="text-base font-lato text-white"><a href="#" class="hover:text-white">All Fruits</a></li>
+              <li class="text-base text-white"><a href="#" class="hover:text-white">Home</a></li>
+              <li class="text-base text-white"><a href="#" class="hover:text-white">About Us</a></li>
+              <li class="text-base text-white"><a href="#" class="hover:text-white">Shop</a></li>
+              <li class="text-base text-white"><a href="#" class="hover:text-white">All Fruits</a></li>
             </ul>
           </div>
           <div class="navbar-center">
@@ -58,10 +58,10 @@
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
               </label>
               <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                <li class="text-base font-lato text-white bg-brand"><a href="#">Home</a></li>
-                <li class="text-base font-lato text-white bg-brand"><a href="#">About Us</a></li>
-                <li class="text-base font-lato text-white bg-brand"><a href="#">Shop</a></li>
-                <li class="text-base font-lato text-white bg-brand"><a href="#">All Fruits</a></li>
+                <li class="text-base text-white bg-brand"><a href="#">Home</a></li>
+                <li class="text-base text-white bg-brand"><a href="#">About Us</a></li>
+                <li class="text-base text-white bg-brand"><a href="#">Shop</a></li>
+                <li class="text-base text-white bg-brand"><a href="#">All Fruits</a></li>
               </ul>
             </div>
             <img src="./images/nav-logo.png" alt="logo">
@@ -75,6 +75,82 @@
         </div>
       </div>
       <!-- ===== nav section ends ===== -->
+      <!-- ===== banner section starts ===== -->
+      <section id="banner">
+        <div class="custom-container">
+          <div class="carousel w-full mt-8">
+            <!-- ===== slide-1 ===== -->
+            <div id="slide1" class="carousel-item relative w-full">
+              <div class="hero rounded-md min-h-[calc(100vh-150px)]" style="background: url('./images/banner1.png') no-repeat center / cover">
+                <div class="hero-overlay rounded-lg bg-opacity-60 bg-black"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="">
+                    <h1 class="mb-5 -mt-40 text-7xl font-extrabold font-lato">Exotic tastes at your <br> doorstep</h1>
+                    <p class="mb-6 mt-5 font-lato text text-white font-normal">We supply highly quality organic products</p>
+                    <button type="button" class="py-3 px-7 bg-brand rounded-md text-base font-lato font-extrabold">Shop Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle text-white bg-black border-none hover:bg-black">❮</a> 
+                <a href="#slide2" class="btn btn-circle text-white bg-black border-none hover:bg-black">❯</a>
+              </div>
+            </div>
+            <!-- ===== slide-2 ===== --> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <div class="hero rounded-md min-h-[calc(100vh-150px)]" style="background: url('./images/banner2.png') no-repeat center / cover">
+                <div class="hero-overlay rounded-lg bg-opacity-60 bg-black"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="">
+                    <h1 class="mb-5 -mt-40 text-7xl font-extrabold font-lato">Exotic tastes at your <br> doorstep</h1>
+                    <p class="mb-6 mt-5 font-lato text text-white font-normal">We supply highly quality organic products</p>
+                    <button type="button" class="py-3 px-7 bg-brand rounded-md text-base font-lato font-extrabold">Shop Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle text-white bg-transparent border-none hover:bg-transparent">❮</a> 
+                <a href="#slide3" class="btn btn-circle text-white bg-transparent border-none hover:bg-transparent">❯</a>
+              </div>
+            </div>
+            <!-- ===== slide-3 ===== --> 
+            <div id="slide3" class="carousel-item relative w-full">
+              <div class="hero rounded-md min-h-[calc(100vh-150px)]" style="background: url('./images/banner3.png') no-repeat center / cover">
+                <div class="hero-overlay rounded-lg bg-opacity-60 bg-black"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="">
+                    <h1 class="mb-5 -mt-40 text-7xl font-extrabold font-lato">Exotic tastes at your <br> doorstep</h1>
+                    <p class="mb-6 mt-5 font-lato text text-white font-normal">We supply highly quality organic products</p>
+                    <button type="button" class="py-3 px-7 bg-brand rounded-md text-base font-lato font-extrabold">Shop Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle text-white bg-transparent border-none hover:bg-transparent">❮</a> 
+                <a href="#slide4" class="btn btn-circle text-white bg-transparent border-none hover:bg-transparent">❯</a>
+              </div>
+            </div>
+            <!-- ===== slide-4 ===== --> 
+            <div id="slide4" class="carousel-item relative w-full">
+              <div class="hero rounded-md min-h-[calc(100vh-150px)]" style="background: url('./images/banner4.png') no-repeat center / cover">
+                <div class="hero-overlay rounded-lg bg-opacity-60 bg-black"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="">
+                    <h1 class="mb-5 -mt-40 text-7xl font-extrabold font-lato">Exotic tastes at your <br> doorstep</h1>
+                    <p class="mb-6 mt-5 font-lato text text-white font-normal">We supply highly quality organic products</p>
+                    <button type="button" class="py-3 px-7 bg-brand rounded-md text-base font-lato font-extrabold">Shop Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle text-white bg-transparent border-none hover:bg-transparent">❮</a> 
+                <a href="#slide1" class="btn btn-circle text-white bg-transparent border-none hover:bg-transparent">❯</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== banner section ends ===== -->
     </header>
     <!-- ===== header section ends ===== -->
     <!-- ===== main section starts ===== -->
